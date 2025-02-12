@@ -1,4 +1,4 @@
-package RemoveDuplicates;
+package ListInterface.RemoveDuplicates;
 
 import java.util.*;
 
