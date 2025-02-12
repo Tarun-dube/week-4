@@ -1,4 +1,4 @@
-package Frequency;
+package ListInterface.Frequency;
 
 import java.util.HashMap;
 import java.util.Map;
