@@ -1,4 +1,4 @@
-package ReverseList;
+package ListInterface.ReverseList;
 
 import org.junit.jupiter.api.Test;
 
@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 
-import static ReverseList.Reverse.reverse;
+import static ListInterface.ReverseList.Reverse.reverse;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ReverseTest {

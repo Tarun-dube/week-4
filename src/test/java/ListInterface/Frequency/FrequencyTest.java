@@ -1,10 +1,10 @@
-package Frequency;
+package ListInterface.Frequency;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.Map;
 
-import static Frequency.Frequency.frequencyOfItem;
+import static ListInterface.Frequency.Frequency.frequencyOfItem;
 import static org.junit.jupiter.api.Assertions.*;
 
 class FrequencyTest {

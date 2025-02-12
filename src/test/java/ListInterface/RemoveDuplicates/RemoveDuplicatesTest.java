@@ -1,11 +1,11 @@
-package RemoveDuplicates;
+package ListInterface.RemoveDuplicates;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static RemoveDuplicates.RemoveDuplicates.removeDuplicates;
+import static ListInterface.RemoveDuplicates.RemoveDuplicates.removeDuplicates;
 import static org.junit.jupiter.api.Assertions.*;
 
 class RemoveDuplicatesTest {
