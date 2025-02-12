@@ -1,4 +1,4 @@
-package ReverseList;
+package ListInterface.ReverseList;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
