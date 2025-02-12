@@ -1,12 +1,11 @@
-package ElementFromEnd;
+package ListInterface.ElementFromEnd;
 
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestFactory;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static ElementFromEnd.ElementFromEnd.elementFromEnd;
+import static ListInterface.ElementFromEnd.ElementFromEnd.elementFromEnd;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ElementFromEndTest {
