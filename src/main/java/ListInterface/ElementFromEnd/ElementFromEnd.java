@@ -1,4 +1,4 @@
-package ElementFromEnd;
+package ListInterface.ElementFromEnd;
 
 import java.util.ArrayList;
 import java.util.List;
