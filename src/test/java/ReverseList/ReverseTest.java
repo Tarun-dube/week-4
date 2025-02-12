@@ -6,7 +6,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import static java.util.Collections.reverse;
+
+import static ReverseList.Reverse.reverse;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ReverseTest {

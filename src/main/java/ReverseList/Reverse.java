@@ -3,10 +3,20 @@ package ReverseList;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Stack;
 
-import static java.util.Collections.reverse;
 
 public class Reverse {
+    public static void reverse(List<Integer> list) {
+        Stack<Integer> stack = new Stack<Integer>();
+        for(Integer i : list) {
+            stack.push(i);
+        }
+        list.clear();
+        while(!stack.isEmpty()) {
+            list.add(stack.pop());
+        }
+    }
     public static void main(String[] args) {
 
         System.out.println("Arraylist implementation:");
