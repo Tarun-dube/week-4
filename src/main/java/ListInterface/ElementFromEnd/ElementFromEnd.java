@@ -1,6 +1,7 @@
 package ListInterface.ElementFromEnd;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
@@ -20,7 +21,7 @@ public class ElementFromEnd {
         return element;
     }
     public static void main(String[] args) {
-        List<Integer> list=new ArrayList<>();
+        List<Integer> list=new LinkedList<>();
         list.add(1);
         list.add(2);
         list.add(3);
@@ -30,7 +31,7 @@ public class ElementFromEnd {
         System.out.println(elementFromEnd(list, 3));
 
 
-        List<String>list2=new ArrayList<>();
+        List<String>list2=new LinkedList<>();
         list2.add("A");
         list2.add("B");
         list2.add("C");
