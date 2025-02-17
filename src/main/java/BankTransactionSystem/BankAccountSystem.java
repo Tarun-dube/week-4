@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class BankAccountSystem {
 
     public static void main(String[] args) {
-        // Create a BankAccount object with an initial balance
+        // Create a BankAccount object with an initial balance is
         BankAccount account = new BankAccount(1000.0);
         Scanner scanner = new Scanner(System.in);
 
