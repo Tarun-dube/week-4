@@ -4,20 +4,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Course<T extends CourseType>{
-        T courseType;
 
 
+    public List<T> getList() {
+        return list;
+    }
+
+    List<T>list=new ArrayList<>();
 
 
-        public Course(T courseType) {
-            this.courseType = courseType;
-
+        public void addCourse(T course) {
+            list.add(course);
         }
 
-        public void displayDetails() {
-            System.out.println("Course: " + courseType.getCourseName() + " | Duration: " + courseType.getDuration());
-            courseType.evaluate();
-            }
+
+
+
         }
 
 
